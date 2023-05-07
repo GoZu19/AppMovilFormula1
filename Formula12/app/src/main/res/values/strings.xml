@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Formula1</string>
+    <string name="abrir_navigation">Abrir Menú</string>
+    <string name="cerrar_navigation">Cerrar Menú</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_alertDialog_agregar">Añadir a Favoritos</string>
+    <string name="mensaje_alertDialog_agregar">Quieres añadir como Piloto favorito a: </string>
+    <string name="titulo_alertDialog_eliminar">Quitar de Favoritos</string>
+    <string name="mensaje_alertDialog_eliminar">Quieres Quitar como Piloto favorito a: </string>
+    <string name="guardarDatos">Se ha guardado los datos</string>
+</resources>

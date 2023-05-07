@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/homemenu"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/driversmenu"
+            android:icon="@drawable/drivers"
+            android:title="Pilotos"/>
+
+        <item
+            android:id="@+id/constructormenu"
+            android:icon="@drawable/constructor"
+            android:title="Constructores"/>
+        <item
+            android:id="@+id/favoritemenu"
+            android:icon="@drawable/favorite"
+            android:title="Mi Piloto"/>
+        <item
+            android:id="@+id/exitmenu"
+            android:icon="@drawable/exit"
+            android:title="Salir"/>
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayoutmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:collapseIcon="@drawable/f1"
+            app:logo="@drawable/f1"
+            app:navigationIcon="@drawable/menu"
+            app:navigationIconTint="#31839E" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navegationmain"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:isScrollContainer="true"
+        android:pointerIcon="top_right_diagonal_double_arrow"
+        android:scrollbarTrackHorizontal="@drawable/ic_launcher_foreground"
+        app:headerLayout="@layout/cabeceramenu"
+        app:menu="@menu/menu"
+        app:subheaderColor="#655858" />
+</androidx.drawerlayout.widget.DrawerLayout>
